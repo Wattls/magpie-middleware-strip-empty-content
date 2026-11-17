@@ -1,0 +1,10 @@
+{
+  "name": "magpie-middleware-strip-empty-content",
+  "version": "0.1.0",
+  "description": "Magpie gateway middleware: drop empty-content user messages to prevent 400 on strict channels",
+  "type": "module",
+  "license": "MIT",
+  "magpie": {
+    "middleware": "./empty-content.middleware.js"
+  }
+}
